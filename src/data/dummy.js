@@ -61,6 +61,7 @@ export const kanbanGrid = [
     keyField: 'Close',
     allowToggle: true },
 ];
+
 const gridEmployeeProfile = (props) => (
   <div className="flex items-center gap-2">
     <img
@@ -2125,7 +2126,6 @@ export const ordersData = [
   {
     OrderID: 10248,
     CustomerName: 'Vinet',
-
     TotalAmount: 32.38,
     OrderItems: 'Fresh Tomato',
     Location: 'USA',

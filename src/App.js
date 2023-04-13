@@ -63,6 +63,8 @@ const App = () => {
             </div>
 
             <div>
+              <ThemeSettings />
+
               <Routes>
                 {/* dashh=board */}
                 <Route path="/" element={<Ecommerce />} />
@@ -76,7 +78,7 @@ const App = () => {
                 {/* Apps */}
                 <Route path="/kanban" element={<Kanban />} />
                 <Route path="/editor" element={<Editor />} />
-                <Route path="/calender" element={<Calendar />} />
+                <Route path="/calendar" element={<Calendar />} />
                 <Route path="/color-picker" element={<ColorPicker />} />
 
                 {/* charts */}
